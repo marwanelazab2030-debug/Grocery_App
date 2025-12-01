@@ -3,6 +3,20 @@
 A fast, modern, and cost-optimized Flutter grocery delivery app for iOS & Android, built with real-time pricing, beautiful UI, and full Firebase backend.
 Designed for high performance and a seamless shopping experience in both Arabic 🇸🇦 and English 🇬🇧.
 
+## 📸 Screenshots
+
+| **Home Screen** | **Product Details** |
+|:---:|:---:|
+| <img src="screenshots/home.jpeg" width="300" /> | <img src="screenshots/details.jpeg" width="300" /> |
+
+| **My Cart** | **My Orders** |
+|:---:|:---:|
+| <img src="screenshots/cart.jpeg" width="300" /> | <img src="screenshots/my_orders.jpeg" width="300" /> |
+
+| **Order Details** | |
+|:---:|:---:|
+| <img src="screenshots/order_details.jpeg" width="300" /> | |
+
 ## 🚀 Highlights
 
 *   ⚡ **Real-time Firestore data** (prices, stalls, products).
@@ -26,19 +40,6 @@ Designed for high performance and a seamless shopping experience in both Arabic 
 *   **State Management**: Simple & optimized (setState / Provider)
 *   **Responsive UI** for all devices
 
-## 📸 Screenshots
-
-| **Home Screen** | **Product Details** |
-|:---:|:---:|
-| <img src="screenshots/home.jpeg" width="300" /> | <img src="screenshots/details.jpeg" width="300" /> |
-
-| **My Cart** | **My Orders** |
-|:---:|:---:|
-| <img src="screenshots/cart.jpeg" width="300" /> | <img src="screenshots/my_orders.jpeg" width="300" /> |
-
-| **Order Details** | |
-|:---:|:---:|
-| <img src="screenshots/order_details.jpeg" width="300" /> | |
 
 ## 🧩 How the System Works
 
