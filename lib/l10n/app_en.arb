@@ -1,0 +1,226 @@
+{
+  "appTitle": "Khodarkom",
+  "profileGreeting": "Hi, {name}",
+  "@profileGreeting": {
+    "description": "Greeting text shown on profile screen header",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "myOrdersLabel": "My Orders",
+  "addressesLabel": "My Addresses",
+  "favoritesLabel": "Favorites",
+  "languageLabel": "Language",
+  "languagePickerTitle": "Choose language",
+  "languageArabic": "Arabic",
+  "languageEnglish": "English",
+  "createProfileTitle": "Create your profile",
+  "createProfileSubtitle": "Enter your full name and choose your preferred language to continue.",
+  "fullNameLabel": "Full name",
+  "fullNameHint": "Enter your full name",
+  "languageFieldLabel": "Language",
+  "saveButtonLabel": "Save",
+  "saveSuccess": "Saved ✅",
+  "saveError": "Save failed: {error}",
+  "@saveError": {
+    "description": "Error shown when saving profile fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidSessionError": "Session is invalid. Please try again.",
+  "emptyNameError": "Please enter your full name.",
+  "defaultUserName": "User",
+  "genericErrorLoadingData": "Error loading data",
+  "currencyValue": "{value} SAR",
+  "@currencyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "pricePerUnit": "{price} SAR /\n{unit}",
+  "@pricePerUnit": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "quantityWithUnit": "Qty: {quantity} {unit}",
+  "@quantityWithUnit": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCategoryAll": "All",
+  "homeCategoryVegetables": "Vegetables",
+  "homeCategoryFruits": "Fruits",
+  "homeCategoryDates": "Dates",
+  "homeCategoryEggs": "Eggs",
+  "homeSearchHint": "Search for products...",
+  "homeBestPricesTitle": "Today’s best prices",
+  "homeNoProductsMessage": "No products in this category.",
+  "homeAddedToCart": "Added to cart",
+  "cartTitle": "My Cart",
+  "cartCouponHint": "Have a discount code?",
+  "cartApplyButton": "Apply",
+  "cartCheckoutButton": "Proceed to payment",
+  "cartEmptyTitle": "Your cart is empty!",
+  "cartEmptySubtitle": "Start adding fresh products to enjoy the best prices.",
+  "cartEmptyAction": "Start shopping",
+  "subtotalLabel": "Subtotal",
+  "deliveryFeeLabel": "Delivery fee",
+  "totalLabel": "Total",
+  "addressesTitle": "My addresses",
+  "selectDeliveryAddressTitle": "Select delivery address",
+  "addressUnknownValue": "Not specified",
+  "addressUnknownLabel": "Unknown address",
+  "addressUseForPayment": "This address will be used for payment",
+  "addressSelectBeforeContinue": "Please select an address before continuing",
+  "goToPaymentButton": "Go to payment",
+  "addNewAddressButton": "Add new address",
+  "noAddressesTitle": "No addresses yet",
+  "noAddressesSubtitle": "Add your address to make delivery easier",
+  "addAddressCta": "Add a new address",
+  "addressTypeHome": "Home",
+  "addressTypeWork": "Work",
+  "addressTypeFamily": "Family",
+  "addressTypeOther": "Other",
+  "addressTypeUnknown": "Other",
+  "addressTypeCustomLabel": "Another address",
+  "addressCustomTypeHint": "Enter address type",
+  "addressStreetHint": "Street name",
+  "addressBuildingHint": "Building / apartment number",
+  "addressLandmarkHint": "Landmark (optional)",
+  "addressSavedMessage": "Address saved successfully",
+  "addressUpdatedMessage": "Address updated",
+  "addressFormEditTitle": "Edit address",
+  "addressFormAddTitle": "Enter address details",
+  "addressConfirmButton": "Confirm location",
+  "addressUpdateButton": "Update address",
+  "orderDetailsTitle": "Order details",
+  "orderLoadError": "Error loading order",
+  "orderNotFound": "Order not found",
+  "orderProductsSection": "Products",
+  "orderNumberLabel": "Order #{orderId}",
+  "@orderNumberLabel": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "orderSummaryLabel": "Summary",
+  "orderStatusReceived": "Order received",
+  "orderStatusOnTheWay": "On the way",
+  "orderStatusDelivered": "Delivered",
+  "myOrdersLoginRequired": "Please log in",
+  "ordersTabCurrent": "Current",
+  "ordersTabPast": "Past",
+  "ordersLoadError": "Error loading orders",
+  "orderNumberPrefix": "Order ",
+  "ordersTotalLabel": "Total",
+  "ordersActionReorder": "Reorder",
+  "ordersActionDetails": "Details",
+  "orderStatusPreparing": "Preparing",
+  "orderStatusOutForDelivery": "Out for delivery",
+  "orderStatusCompleted": "Delivered",
+  "orderStatusCancelled": "Cancelled",
+  "ordersEmptyCurrent": "You don’t have current orders",
+  "ordersEmptyPast": "You don’t have past orders",
+  "ordersEmptyHint": "Once you place an order, you’ll see its history here.",
+  "paymentCartEmpty": "Cart is empty",
+  "paymentCreationError": "Error while creating the order",
+  "paymentTitle": "Payment method",
+  "paymentMethodMada": "Mada",
+  "paymentMethodCod": "Cash on delivery",
+  "paymentConfirmButton": "Confirm payment",
+  "favoritesTitle": "Favorites",
+  "favoritesSearchHint": "Search favorites...",
+  "favoritesAddToCart": "Add to cart",
+  "favoritesEmptyTitle": "You have no favorite products yet",
+  "favoritesEmptySubtitle": "Add the products you love here for quick access",
+  "favoritesEmptyAction": "Browse products",
+  "productFallbackName": "Product",
+  "productDescriptionLabel": "Description",
+  "productDescriptionEmpty": "No description available for this product.",
+  "productAddToCart": "Add to cart",
+  "phoneWelcomeTitle": "Welcome to Khodarkom",
+  "phoneWelcomeSubtitle": "Enter your phone number to start",
+  "phoneNumberLabel": "Phone number",
+  "phoneInvalidInput": "Please enter a valid Saudi mobile number (9 digits starting with 5).",
+  "phoneVerifyError": "Verification failed: {message}",
+  "@phoneVerifyError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneGenericError": "An error occurred: {error}",
+  "@phoneGenericError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneContinueButton": "Continue",
+  "phoneAgreementPrefix": "By continuing you agree to ",
+  "phoneTermsLabel": "Terms of Service",
+  "phoneAndConnector": " and ",
+  "phonePrivacyLabel": "Privacy Policy",
+  "otpAutofillSuccess": "Verified automatically!",
+  "otpResendError": "Error while resending: {message}",
+  "@otpResendError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "otpInvalidCode": "The code you entered is incorrect.",
+  "otpTitle": "Verification code",
+  "otpSubtitle": "Enter the verification code",
+  "otpInfoText": "A 6-digit code was sent to your phone number.",
+  "otpResendAfter": "Resend after {time}",
+  "@otpResendAfter": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "otpResendButton": "Resend code",
+  "otpEnterFullCode": "Please enter the full code (6 digits).",
+  "otpVerifyButton": "Verify",
+  "unitKilo": "Kilo",
+  "unitBox": "Box",
+  "unitPiece": "Piece",
+  "unitKg": "Kg",
+  "unitGram": "Gram",
+  "unitHaba": "Piece",
+  "unitRabta": "Bundle",
+  "unitKis": "Bag",
+  "bottomNavHome": "Home",
+  "bottomNavCart": "Cart",
+  "bottomNavOrders": "Orders",
+  "bottomNavProfile": "Profile",
+  "orderIdCopied": "Order ID copied to clipboard"
+}
+

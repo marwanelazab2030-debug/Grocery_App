@@ -1,0 +1,225 @@
+{
+  "appTitle": "خضاركم",
+  "profileGreeting": "أهلاً، {name}",
+  "@profileGreeting": {
+    "description": "Greeting text shown on profile screen header",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "الإعدادات",
+  "myOrdersLabel": "طلباتي",
+  "addressesLabel": "عناويني",
+  "favoritesLabel": "المفضلة",
+  "languageLabel": "اللغة",
+  "languagePickerTitle": "اختر اللغة",
+  "languageArabic": "العربية",
+  "languageEnglish": "English",
+  "createProfileTitle": "إنشاء ملفك الشخصي",
+  "createProfileSubtitle": "أدخل اسمك الكامل واختر اللغة المفضلة للمتابعة.",
+  "fullNameLabel": "الاسم الكامل",
+  "fullNameHint": "ادخل اسمك الكامل",
+  "languageFieldLabel": "اللغة",
+  "saveButtonLabel": "حفظ",
+  "saveSuccess": "تم الحفظ ✅",
+  "saveError": "فشل الحفظ: {error}",
+  "@saveError": {
+    "description": "Error shown when saving profile fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidSessionError": "الجلسة غير صالحة. حاول مرة أخرى.",
+  "emptyNameError": "اكتب اسمك الكامل.",
+  "defaultUserName": "مستخدم",
+  "genericErrorLoadingData": "حدث خطأ أثناء تحميل البيانات",
+  "currencyValue": "{value} ر.س",
+  "@currencyValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "pricePerUnit": "{price} ر.س / {unit}",
+  "@pricePerUnit": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "quantityWithUnit": "الكمية: {quantity} {unit}",
+  "@quantityWithUnit": {
+    "placeholders": {
+      "quantity": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCategoryAll": "الكل",
+  "homeCategoryVegetables": "خضار",
+  "homeCategoryFruits": "فواكه",
+  "homeCategoryDates": "تمور",
+  "homeCategoryEggs": "بيض",
+  "homeSearchHint": "ابحث عن منتجات...",
+  "homeBestPricesTitle": "أفضل أسعار اليوم",
+  "homeNoProductsMessage": "لا توجد منتجات في هذا التصنيف.",
+  "homeAddedToCart": "تمت الإضافة إلى السلة",
+  "cartTitle": "سلّتي",
+  "cartCouponHint": "لديك كوبون خصم؟",
+  "cartApplyButton": "تطبيق",
+  "cartCheckoutButton": "المتابعة للدفع",
+  "cartEmptyTitle": "سلّتك فارغة!",
+  "cartEmptySubtitle": "ابدأ بإضافة منتجات طازجة للاستمتاع بأفضل الأسعار!",
+  "cartEmptyAction": "ابدأ التسوق",
+  "subtotalLabel": "المجموع الفرعي",
+  "deliveryFeeLabel": "رسوم التوصيل",
+  "totalLabel": "المجموع الكلي",
+  "addressesTitle": "عناويني",
+  "selectDeliveryAddressTitle": "اختر عنوان التوصيل",
+  "addressUnknownValue": "غير محدد",
+  "addressUnknownLabel": "عنوان غير معروف",
+  "addressUseForPayment": "سيتم استخدام هذا العنوان للدفع",
+  "addressSelectBeforeContinue": "الرجاء اختيار عنوان قبل المتابعة",
+  "goToPaymentButton": "اذهب للدفع",
+  "addNewAddressButton": "إضافة عنوان جديد",
+  "noAddressesTitle": "لا توجد عناوين بعد",
+  "noAddressesSubtitle": "أضف عنوانك لتسهيل عملية التوصيل",
+  "addAddressCta": "إضافة عنوان جديد",
+  "addressTypeHome": "المنزل",
+  "addressTypeWork": "العمل",
+  "addressTypeFamily": "الأهل",
+  "addressTypeOther": "أخرى",
+  "addressTypeUnknown": "غير محدد",
+  "addressTypeCustomLabel": "عنوان آخر",
+  "addressCustomTypeHint": "اكتب نوع العنوان",
+  "addressStreetHint": "اسم الشارع",
+  "addressBuildingHint": "رقم المبنى / الشقة",
+  "addressLandmarkHint": "معلم بارز (اختياري)",
+  "addressSavedMessage": "تم حفظ العنوان بنجاح",
+  "addressUpdatedMessage": "تم تحديث العنوان",
+  "addressFormEditTitle": "تعديل العنوان",
+  "addressFormAddTitle": "أدخل تفاصيل العنوان",
+  "addressConfirmButton": "تأكيد الموقع",
+  "addressUpdateButton": "تحديث العنوان",
+  "orderDetailsTitle": "تفاصيل الطلب",
+  "orderLoadError": "حدث خطأ أثناء تحميل الطلب",
+  "orderNotFound": "لم يتم العثور على هذا الطلب",
+  "orderProductsSection": "المنتجات",
+  "orderNumberLabel": "طلب رقم #{orderId}",
+  "@orderNumberLabel": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "orderSummaryLabel": "المجموع",
+  "orderStatusReceived": "تم الاستلام",
+  "orderStatusOnTheWay": "قيد التوصيل",
+  "orderStatusDelivered": "تم التوصيل",
+  "myOrdersLoginRequired": "الرجاء تسجيل الدخول",
+  "ordersTabCurrent": "الحالية",
+  "ordersTabPast": "السابقة",
+  "ordersLoadError": "حدث خطأ أثناء تحميل الطلبات",
+  "orderNumberPrefix": "طلب رقم ",
+  "ordersTotalLabel": "الإجمالي",
+  "ordersActionReorder": "إعادة الطلب",
+  "ordersActionDetails": "عرض التفاصيل",
+  "orderStatusPreparing": "جاري التجهيز",
+  "orderStatusOutForDelivery": "قيد التوصيل",
+  "orderStatusCompleted": "تم التوصيل",
+  "orderStatusCancelled": "ملغي",
+  "ordersEmptyCurrent": "لا يوجد لديك طلبات حالية",
+  "ordersEmptyPast": "لا يوجد لديك طلبات سابقة",
+  "ordersEmptyHint": "بمجرد تقديم الطلب، ستتمكن من رؤية سجله هنا.",
+  "paymentCartEmpty": "السلة فارغة",
+  "paymentCreationError": "حدث خطأ أثناء إنشاء الطلب",
+  "paymentTitle": "طريقة الدفع",
+  "paymentMethodMada": "مدى",
+  "paymentMethodCod": "الدفع عند الاستلام",
+  "paymentConfirmButton": "تأكيد الدفع",
+  "favoritesTitle": "المفضلة",
+  "favoritesSearchHint": "ابحث في المفضلة...",
+  "favoritesAddToCart": "أضف للسلة",
+  "favoritesEmptyTitle": "ليس لديك أي منتجات مفضلة بعد",
+  "favoritesEmptySubtitle": "أضف المنتجات التي تحبها هنا لسهولة الوصول إليها",
+  "favoritesEmptyAction": "تصفح المنتجات",
+  "productFallbackName": "المنتج",
+  "productDescriptionLabel": "الوصف",
+  "productDescriptionEmpty": "لا يوجد وصف متاح لهذا المنتج",
+  "productAddToCart": "أضف إلى السلة",
+  "phoneWelcomeTitle": "أهلاً بك في خضاركم",
+  "phoneWelcomeSubtitle": "ادخل رقم جوالك للبدء",
+  "phoneNumberLabel": "رقم الجوال",
+  "phoneInvalidInput": "الرجاء إدخال رقم جوال سعودي صحيح (9 أرقام تبدأ بـ 5).",
+  "phoneVerifyError": "فشل التحقق: {message}",
+  "@phoneVerifyError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneGenericError": "حدث خطأ: {error}",
+  "@phoneGenericError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneContinueButton": "متابعة",
+  "phoneAgreementPrefix": "بالمتابعة أنت توافق على ",
+  "phoneTermsLabel": "شروط الخدمة",
+  "phoneAndConnector": " و ",
+  "phonePrivacyLabel": "سياسة الخصوصية",
+  "otpAutofillSuccess": "تم التحقق تلقائيًا!",
+  "otpResendError": "حدث خطأ أثناء إعادة الإرسال: {message}",
+  "@otpResendError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "otpInvalidCode": "الكود الذي أدخلته غير صحيح.",
+  "otpTitle": "رمز التحقق",
+  "otpSubtitle": "أدخل رمز التحقق",
+  "otpInfoText": "تم إرسال رمز مكون من 6 أرقام إلى رقم هاتفك.",
+  "otpResendAfter": "إعادة الإرسال بعد {time}",
+  "@otpResendAfter": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "otpResendButton": "إعادة إرسال الرمز",
+  "otpEnterFullCode": "الرجاء إدخال الكود كاملاً (6 أرقام).",
+  "otpVerifyButton": "تحقق",
+  "unitKilo": "كيلو",
+  "unitBox": "صندوق",
+  "unitPiece": "قطعة",
+  "unitKg": "كجم",
+  "unitGram": "جرام",
+  "unitHaba": "حبة",
+  "unitRabta": "ربطة",
+  "unitKis": "كيس",
+  "bottomNavHome": "الرئيسية",
+  "bottomNavCart": "السلة",
+  "bottomNavOrders": "الطلبات",
+  "bottomNavProfile": "حسابي",
+  "orderIdCopied": "تم نسخ رقم الطلب"
+}
