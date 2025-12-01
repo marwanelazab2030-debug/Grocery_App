@@ -10,7 +10,8 @@ import GoogleMaps // ✅ Add this line
   ) -> Bool {
 
     // ✅ Initialize Google Maps with your API Key
-    GMSServices.provideAPIKey("AIzaSyDIgv2x_ZQH-AX3e5zKEtncuC9tJrnx1w0")
+    let apiKey = Bundle.main.object(forInfoDictionaryKey: "GMSApiKey") as? String
+    GMSServices.provideAPIKey(apiKey ?? "")
 
     GeneratedPluginRegistrant.register(with: self)
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)

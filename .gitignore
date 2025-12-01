@@ -50,3 +50,9 @@ local.properties
 
 
 
+
+# Firebase Config (Sensitive - Do NOT upload to public repo)
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+ios/Runner/Secrets.xcconfig

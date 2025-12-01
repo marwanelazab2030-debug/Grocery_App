@@ -41,7 +41,7 @@
         <!-- Google Maps API key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCQ76PD81KllIbpNgn9yn5_XLMKjPy5EZ8" />
+            android:value="${MAPS_API_KEY}" />
 
         <!-- Firebase Messaging default icon -->
         <meta-data
