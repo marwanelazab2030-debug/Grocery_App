@@ -17,19 +17,7 @@ Designed for high performance and a seamless shopping experience in both Arabic 
 |:---:|:---:|
 | <img src="screenshots/order_details.jpeg" width="300" /> | |
 
-## 📸 Screenshots
 
-| **Home Screen** | **Product Details** |
-|:---:|:---:|
-| <img src="screenshots/home.jpeg" width="300" /> | <img src="screenshots/details.jpeg" width="300" /> |
-
-| **My Cart** | **My Orders** |
-|:---:|:---:|
-| <img src="screenshots/cart.jpeg" width="300" /> | <img src="screenshots/my_orders.jpeg" width="300" /> |
-
-| **Order Details** | |
-|:---:|:---:|
-| <img src="screenshots/order_details.jpeg" width="300" /> | |
 
 ## 🚀 Highlights
 
